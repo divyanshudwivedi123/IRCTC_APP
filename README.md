@@ -27,9 +27,8 @@ Give a SECRET_KEY and ADMIN_KEY as per you own choice.
 NOTE: The next step involves going to the cloud DB provider and getting a connection string to connect to the database. If you want to skip steps 3 and 4, you can use the connection string that I used for development purposes. 
 
 ```
-DB_STRING=
-postgresql://irctc-db_owner:RgJo4MYwH5FG@ep
--crimson-leaf-a5pnyy8c.us-east-2.aws.neon.tech/irctc-db?sslmode=require
+DB_STRING = postgresql://irctc-db_owner:RgJo4MYwH5FG@ep-crimson-leaf-a5pnyy8c.us-east-2.aws.neon
+.tech/irctc-db?sslmode=require
 ```
 3. Go to neon.tech i.e. https://neon.tech/ and get a serverless instance of PostgreSQL running. You will see a connection string in the dashboard.
 Copy the string and paste it in front of the DB_STRING in .env file.
