@@ -76,3 +76,8 @@ Database connected successfully !
 
 ## API endpoints
 
+Go to the given URL to access the API documentation.
+```
+https://documenter.getpostman.com/view/17849933/2sAXqqdNos
+```
+
