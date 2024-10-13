@@ -1,5 +1,7 @@
 # About
 
+Raising a PR !
+
 IRCTC app is a backend application where users can signup/login and book train tickets.
 
 The tech stack used in NodeJS/Express and the database used is a serverless instance of postgreSQL on neon.tech.
